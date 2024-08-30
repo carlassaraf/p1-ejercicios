@@ -25,7 +25,8 @@ function saludar() {
 function saludarPorNombre(nombre = null) {
 
     if(nombre === null) {
-        alert("Hola!");
+        // alert("Hola!");
+        saludar();
     }
     else {
         alert(`Hola ${nombre}!`);
