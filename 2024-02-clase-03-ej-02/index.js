@@ -54,3 +54,17 @@ function validarNumero(msg = "") {
     // Este mensaje nunca aparece porque se corta en seco la funcion con el return
     alert("Mensaje post return");
 }
+
+
+
+
+// Error
+restar(2, 4);
+
+// Funcion declarada como variable
+const restar = function(num1, num2) {
+    suma = num1 - num2;
+}
+
+// Aca si puedo llamarla
+restar(2, 4);
