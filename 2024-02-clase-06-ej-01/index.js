@@ -15,7 +15,7 @@
 //     }
 // }
 
-let libros = [];
+let biblioteca = [];
 
 // Intento leer el archivo json con los libros
 fetch("libros.json").then(response => response.json()).then(libros => {
@@ -30,8 +30,8 @@ fetch("libros.json").then(response => response.json()).then(libros => {
             libro.portada
         );
 
-        // Lo agrego al array
-        libros.push(obj);
+        // Lo agrego a la pagina
+        document.querySelector(".container").innerHTML += obj.toHTML();
 
     }
 });
