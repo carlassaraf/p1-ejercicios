@@ -1,0 +1,44 @@
+[
+    {
+        "nombre": "Apocalipsis Z: El principio del fin",
+        "autor": "Manel Loureiro",
+        "editorial": "Editorial Planeta",
+        "portada": "https://planetadelibrosar0.cdnstatics.com/usuaris/libros/fotos/257/original/portada_apocalipsis-z-el-principio-del-fin_manel-loureiro_201707260945.jpg"
+    },
+    {
+        "nombre" : "La muerte de dexter",
+        "autor" : "Jeff Lindsay",
+        "editorial" : "Planeta",
+        "portada" : "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSSkoNGrI9xzSarkZZM1N0YhQ0l1IjREwYviiJHNnkx_pMcZa-D"
+    },
+    {
+        "nombre": "1984",
+        "autor": "George Orwell",
+        "editorial": "Hermida Editores",
+        "portada": "https://acdn.mitiendanube.com/stores/001/029/689/products/19841-039a8c5f61dee95ec316324958058653-1024-1024.png"
+    },
+    {
+        "nombre": "El gran Gatsby",
+        "autor": "F. Scott Fitzgerald",
+        "editorial": "C",
+        "portada": "https://upload.wikimedia.org/wikipedia/commons/5/56/Portada_de_la_novel%C2%B7la_%22The_Great_Gatsby%22.gif"
+    },
+    {
+        "nombre": "Postales del abismo ",
+        "autor": "Carrie Fisher",
+        "editorial": "Planeta",
+        "portada": "https://www.anticexlibris.ro/userfiles/749d603f-5d08-4368-8541-772794e7e1e3/products/4271931_big.jpg"
+    },
+    {
+        "nombre": "Don Quijote de la Mancha",
+        "autor": "Miguel de Cervantes",
+        "editorial": "Alianza Editorial",
+        "portada": "https://www.edicontinente.com.ar/image/titulos/9788419087003.jpg"
+    },
+    {
+        "nombre": "El principito",
+        "autor": "Antoine de Saint-Exupéry",
+        "editorial": "Casa Azul",
+        "portada": "https://http2.mlstatic.com/D_NQ_NP_825896-MLA44535086067_012021-O.webp"
+    }
+]
