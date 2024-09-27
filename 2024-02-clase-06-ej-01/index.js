@@ -15,23 +15,20 @@
 //     }
 // }
 
-let biblioteca = [];
+// Llamo al contructor de Biblioteca
+let biblioteca = new Biblioteca();
 
-// Intento leer el archivo json con los libros
-fetch("libros.json").then(response => response.json()).then(libros => {
+function mostrarCatalogo() {
 
-    // Una vez que tengo los libros, creo los objetos
-    for(let libro of libros) {
+    document.querySelector(".container").innerHTML = biblioteca.toHTML();
+}
 
-        let obj = new Libro(
-            libro.nombre,
-            libro.autor,
-            libro.editorial,
-            libro.portada
-        );
+function pedirLibro(nombre) {
 
-        // Lo agrego a la pagina
-        document.querySelector(".container").innerHTML += obj.toHTML();
+    alert(`Quedan ${biblioteca.pedirLibro(nombre)} libros de ${nombre}`);
+}
 
-    }
-});
+function devolverLibro(nombre) {
+
+    alert(`Quedan ${biblioteca.devolverLibro(nombre)} libros de ${nombre}`);
+}
