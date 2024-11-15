@@ -25,15 +25,27 @@
         <div class="input-group mb-3">
             <span class="input-group-text">Habitación</span>
             <select name="" id="habitacion" class="form-select">
-                <option value="">Individual</option>
-                <option value="">Doble</option>
-                <option value="">Matrimonial</option>
-                <option value="">Triple</option>
+                <option value="">Elija un tipo de habitación</option>
+                <option value="30000">Común</option>
+                <option value="75000">Presidencial</option>
             </select>
         </div>
 
         <div class="input-group mb-3">
             <button id="reservar" type="submit" class="btn btn-primary form-control">Reservar</button>
+        </div>
+
+        <div class="alert alert-info" role="alert">
+            <p>Monto total a pagar: $<span>0</span></p>
+        </div>
+
+        <div class="input-group mb-3">
+            <span class="input-group-text">Método de pago</span>
+            <select name="" id="pago" class="form-select">
+                <option value="">Elija un método de pago</option>
+                <option value="transferencia">Transferencia</option>
+                <option value="credito">Tarjeta de crédito</option>
+            </select>
         </div>
 
     </form>
