@@ -1,0 +1,15 @@
+[
+    {
+        "pid": 100,
+        "name": "Raspberry Pi 5",
+        "price": 183369,
+        "img": "https://http2.mlstatic.com/D_NQ_NP_2X_961213-MLU74366735208_022024-F.webp"
+
+    },
+    {
+        "pid": 102,
+        "name": "Raspberry Pi 4B",
+        "price": 91428,
+        "img": "https://http2.mlstatic.com/D_NQ_NP_2X_701473-MLA79346594338_092024-F.webp"
+    }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "pid": 100,
+        "details": {
+            "RAM": "8 GB",
+            "Procesador": "Cortex-A2",
+            "Clock": "2.4 GHz"
+        }
+    },
+    {
+        "pid": 102,
+        "details": {
+            "RAM": "4 GB",
+            "Procesador": "Cortex-A72",
+            "Clock": "1.5 GHz"
+        }
+    }
+]
